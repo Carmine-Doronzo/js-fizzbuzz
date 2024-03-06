@@ -25,9 +25,12 @@ for(let i = 0; i < 100; i++){
     //dichiariamo la variabile 'rest3' e 'rest5' per l'operazione modulo che ci dovra' dare come resto 0 se la variabile num e' divisibile per 3 o per 5
     let rest3 = num % 3;
     let rest5 = num % 5;
-
+    
+    //impostiamo la condizione: SE rest3 = 0 AND rest5 = 0 stampiamo fizzbuzz
+    if(rest3 == 0 && rest5 == 0){
+        console.log('FIZZBUZZ');
     //impostiamo la condizione: SE rest3 = 0 stampiamo fizz
-    if(rest3 == 0 ){
+    }else if(rest3 == 0 ){
         
         console.log('Fizz');
     
