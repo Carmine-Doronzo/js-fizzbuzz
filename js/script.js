@@ -20,6 +20,23 @@ for(let i = 0; i < 100; i++){
     let num = i + 1;
     
     //stampiamo in console la variabile num per 100 volte
-    console.log(num)
     
+    
+    //dichiariamo la variabile 'rest3' e 'rest5' per l'operazione modulo che ci dovra' dare come resto 0 se la variabile num e' divisibile per 3 o per 5
+    let rest3 = num % 3;
+    let rest5 = num % 5;
+
+    //impostiamo la condizione: SE rest3 = 0 stampiamo fizz
+    if(rest3 == 0 ){
+        
+        console.log('Fizz');
+    
+    //impostiamo la condizione: SE rest5 = 0 stampiamo buzz
+    }else if(rest5 == 0){
+
+        console.log('Buzz');
+    // ALTRIMENTI se le condizioni precedenti sono false stampiamo la variabile 'num'
+    }else{
+        console.log(num)
+    }
 }
