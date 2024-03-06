@@ -1,0 +1,39 @@
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.container > *{
+    margin: 3px;
+    border: 2px solid;
+    padding: 3px;
+}
+
+.num{
+    background-color: blue;
+    width: 70px;
+    
+    aspect-ratio: 1/1;
+
+}
+
+.fizz{
+    background-color: lightcoral;
+    width: 70px;
+    aspect-ratio: 1/1;
+}
+
+.buzz{
+    background-color: green;
+    width: 70px;
+    aspect-ratio: 1/1;
+}
+
+.fizzbuzz{
+    background-color: red;
+    width: 70px;
+    aspect-ratio: 1/1;
+}
