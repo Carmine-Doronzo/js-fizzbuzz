@@ -1,0 +1,1 @@
+In questo esercizio ho manipolato il dom facendo stampare nel <div> con classe container degli <span> con dentro scritto un numero che va da 1 a 100 però nel caso il numero fosse divisibile per 3 la scritta è 'fizz', se fosse divisibile per 5 'buzz' e se fosse divibile per entrambi 'fizzbuzz'.
